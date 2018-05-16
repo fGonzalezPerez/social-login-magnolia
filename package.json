@@ -1,0 +1,23 @@
+{
+  "name": "social-login-magnolia",
+  "version": "1.0.0",
+  "description": "Social login for Magnolia CMS",
+  "main": "\"\"",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fGonzalezPerez/social-login-magnolia.git"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia-component"
+  ],
+  "author": "Francisco Gonzalez Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fGonzalezPerez/social-login-magnolia/issues"
+  },
+  "homepage": "https://github.com/fGonzalezPerez/social-login-magnolia#readme"
+}
