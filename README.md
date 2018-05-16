@@ -1,4 +1,4 @@
-# mgnl-social-login
+# Social Login Light Module for Magnolia CMS 
 Module that is integrated with Google to perform the login in the website.
 
 
@@ -18,7 +18,26 @@ https://documentation.magnolia-cms.com/display/DOCS55/Light+modules
 
 
 ## Usage
+Developing with Magnolia light development is a great advantage but there are situations in which a front developer may need to show certain information to the user depending on whether he is logged in or not.
 
+With this module it is possible to do an authentication oauth using google sign-in and together with the power of JavaScript Models it is possible to save in session variables that can be used by the front developer in any module.
+
+In this module I wanted to save the variable "googleLogged" as boolean in session.
+
+
+I have decorated the travel-demo to add a version of the Magnolia login button. Through this button it is possible to log in with google and retrieve the following user data:
+   * First name
+   * Profile image
+   * Email
+  
+On the other hand, the module has a dialog that is used to:
+   * Configure the google id: YOUR_CLIENT_ID.apps.googleusercontent.com
+   * Define an URL to make a request and sent the data of the logged-in user via ajax
+  To prove this I have made an ajax request to https://haveibeenpwned.com/api/v2/breachedaccount/mail@mail.com?includeUnverified=true to know if the account has been hacked by another user, but this is just an example . It would be possible to send the data to any rest service and save the information in a database or in any other system
+ 
+ 
+ 
+Once the user logout the module deletes the session attribute and the components that are not wanted to be displayed to unlogged users will not be displayed.
 <!--
 Provide details about how a developer can make the component template,
 or other features provided by the light module, available to content
