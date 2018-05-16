@@ -1,0 +1,14 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: idAppGoogle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          required: true
+        - name: restDestination
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

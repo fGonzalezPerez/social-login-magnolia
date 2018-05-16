@@ -1,0 +1,6 @@
+templateScript: /social-login-magnolia/templates/components/socialLogin.ftl
+renderType: freemarker
+title: Social Login
+dialog: social-login-magnolia:components/socialLogin
+modelClass: info.magnolia.module.jsmodels.rendering.JavascriptRenderingModel
+modelPath: /social-login-magnolia/templates/components/socialLogin.js

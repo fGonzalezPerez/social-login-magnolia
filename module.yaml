@@ -1,0 +1,5 @@
+version: 1.0.0
+displayName: SocialLogin
+dependencies:
+  core:
+    version: 5.6.6/*
