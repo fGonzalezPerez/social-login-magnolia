@@ -1,6 +1,9 @@
 # Social Login Light Module for Magnolia CMS 
 Module that is integrated with Google to perform the login in the website.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28932450/40145947-12e210e4-5964-11e8-8c48-63c905712a73.png">
+</p>
 
 ## Features
 This module can be used to set a variable that indicates in the back end whether we have a logged-in user or not. It is possible to use said variable to show or not magnolia components.
@@ -29,13 +32,19 @@ I have decorated the travel-demo to add a version of the Magnolia login button. 
    * First name
    * Profile image
    * Email
+   
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28932450/40145945-10be8ab8-5964-11e8-9da5-5b03421bc2cf.png">
+</p>
   
 On the other hand, the module has a dialog that is used to:
    * Configure the google id: YOUR_CLIENT_ID.apps.googleusercontent.com
    * Define an URL to make a request and sent the data of the logged-in user via ajax
   To prove this I have made an ajax request to https://haveibeenpwned.com/api/v2/breachedaccount/mail@mail.com?includeUnverified=true to know if the account has been hacked by another user, but this is just an example . It would be possible to send the data to any rest service and save the information in a database or in any other system
  
- 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28932450/40145939-0d2a7d80-5964-11e8-8c1c-1d873f40c10a.png">
+</p>
  
 Once the user logout the module deletes the session attribute and the components that are not wanted to be displayed to unlogged users will not be displayed.
 <!--
