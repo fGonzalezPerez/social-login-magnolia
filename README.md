@@ -15,6 +15,7 @@ Download: https://documentation.magnolia-cms.com/display/DOCS56/JavaScript+Model
 To integrate with Google you need to have a Google developer account.
 Resgister: https://developers.google.com/
 You can use your gmail email account
+Use the google console to create credentials for the application a client ID
 
 To know how to deploy this module see:
 https://documentation.magnolia-cms.com/display/DOCS55/Light+modules
